@@ -11,8 +11,8 @@ const {
 function encryptPassword(
     password,
     version = "10",
-    keyID = "143",
-    publicKey = "f219393f2381eab7abd6d20130bfa274cc4ffc8b67988da60abeffc88c1b9b15"
+    keyID = "34",
+    publicKey = "d423a08350488e09526a096683b1ab93aacee4fc80b66de49d2c5faa759e2153"
 ) {
     let d = decodeUTF8(password),
         timestamp = Math.floor(Date.now() / 1e3).toString(),
